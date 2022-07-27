@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz Game</title>
+</head>
+
+<body>
+    <div class="main">
+        <div id="box">
+            <h2 id="quesBox">1) Quiz Question:</h2>
+            <div class="row"><input class="options" id="option1" type="radio" value="a" name="option">
+                <label for="option1"> a) Option</label>
+                
+            </div>
+            <div class="row">
+                <input class="options" id="option2" type="radio" value="b" name="option">
+                <label for="option2"> b) Option</label>
+            </div>
+            <div class="row">
+                <input class="options" id="optioon3" type="radio" value="c" name="option">
+                <label for="option3"> c) Option</label>
+            </div>
+            <div class="row">
+                <input  class="options" id="option4" type="radio" value="d" name="option">
+                <label for="option4"> d) Option</label>
+            </div>
+            <button onclick="submitQuez()" class="btn">Submit</button>
+        </div>
+        <div id="box" class="restart">
+            <button onclick="restart()" class="btn">Restart</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
